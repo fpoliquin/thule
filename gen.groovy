@@ -11,5 +11,5 @@ def engine = new groovy.text.SimpleTemplateEngine()
 def accueil = engine.createTemplate(template).make(propsFrancais).toString()
 def welcome = engine.createTemplate(template).make(propsAnglais).toString()
 
-new File('accueil.html').setText(accueil, 'UTF-8');
-new File('welcome.html').setText(welcome, 'UTF-8');
+new File('web\\accueil.html').setText(accueil, 'UTF-8');
+new File('web\\welcome.html').setText(welcome, 'UTF-8');
