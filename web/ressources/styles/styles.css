@@ -1,9 +1,21 @@
 h1 {
-    color: red;
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: white;
+    text-align: center;
 }
 
 div {
     border: 1px solid red;
+    box-sizing: border-box;
 }
 
 #contenu {
@@ -11,3 +23,36 @@ div {
     margin: auto;
 }
 
+#entete {
+    background-image: url("../images/nonretina/entete.jpg");
+    height: 450px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#entete button {
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+}
+
+#menu {
+    display: inline-block;
+}
+
+#menu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#langue {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    background-color: grey;
+}
