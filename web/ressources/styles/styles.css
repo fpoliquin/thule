@@ -1,17 +1,3 @@
-h1 {
-    color: white;
-    text-transform: uppercase;
-}
-
-h2 {
-    color: white;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: white;
-    text-align: center;
-}
 
 div {
     border: 1px solid red;
@@ -71,3 +57,43 @@ div {
     color: white;
     text-transform: uppercase;
 }
+
+#intro h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+#intro h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+#intro h3 {
+    color: white;
+    text-align: center;
+}
+
+#entreprise h1 {
+    color: blue;
+}
+
+#entreprise-contenu {
+    display: inline-block;
+    position: relative;
+    max-width: 900px;
+    text-align: left;
+}
+#entreprise-contenu img{
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+
+#entreprise-contenu h2 {
+    position: relative;
+    display: inline-block;
+    left: -45px;
+    background-color: blue;
+    white-space: nowrap;
+}
+
