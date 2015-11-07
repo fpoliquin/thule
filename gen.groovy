@@ -6,7 +6,7 @@ String anglais = new File('english.properties').getText('UTF-8')
 def propsAnglais = new Properties()
 propsAnglais.load(new StringReader(anglais))
 
-def template = new File('template.html').getText('UTF-8')
+def template = new File('web\\template.html').getText('UTF-8')
 def engine = new groovy.text.SimpleTemplateEngine()
 def accueil = engine.createTemplate(template).make(propsFrancais).toString()
 def welcome = engine.createTemplate(template).make(propsAnglais).toString()
