@@ -1,6 +1,8 @@
+h1, h2 {
+    margin: 0;
+}
 
 div {
-    border: 1px solid red;
     box-sizing: border-box;
 }
 
@@ -41,6 +43,10 @@ div {
     text-decoration: none;
     color: black;
     background-color: grey;
+}
+
+.section {
+    padding-top: 30px;
 }
 
 #intro {
@@ -128,8 +134,14 @@ div {
     list-style-type: square;
 }
 
+#equipe {
+    background-color: rgb(238, 238, 238);
+    overflow: auto;
+}
+
 .equipe-membre {
     display: inline-block;
+    background-color: white;
     width: 850px;
     text-align: left;
     padding-left: 50px;
@@ -139,14 +151,15 @@ div {
     position: relative;
     left: -50px;
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(8, 44, 96);
+    color: white;
     margin: 40px 0px 10px;
-    padding-left: 50px;
+    padding: 10px 10px 10px 50px;
 }
 
 .equipe-membre h2 {
     text-transform: uppercase;
-    color: blue;
+    color: rgb(91, 188, 171);
     margin: 0px 0px 20px;
 }
 
@@ -169,8 +182,24 @@ div {
     height: 35px;
     text-align: center;
     line-height: 35px;
+    border: 1px solid red;
 }
 
 #mc {
     margin-top: 40px;
+}
+
+#clients {
+    background-image: url("../images/nonretina/clients.jpg");
+    height: 330px;
+    color: white;
+}
+
+#clients .contenu {
+    display: inline-block;
+    width: 550px;
+}
+
+#clients h1 {
+    text-transform: uppercase;
 }
