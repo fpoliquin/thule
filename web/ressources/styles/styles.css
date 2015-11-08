@@ -215,3 +215,9 @@ div {
     display: inline-block;
     width: 550px;
 }
+
+#pied {
+    height: 40px;
+    line-height: 40px;
+    color: rgb(23, 35, 47);
+}
