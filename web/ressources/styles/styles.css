@@ -127,3 +127,50 @@ div {
 #services-bloc2 li {
     list-style-type: square;
 }
+
+.equipe-membre {
+    display: inline-block;
+    width: 850px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.equipe-membre h1 {
+    position: relative;
+    left: -50px;
+    display: inline-block;
+    background-color: blue;
+    margin: 40px 0px 10px;
+    padding-left: 50px;
+}
+
+.equipe-membre h2 {
+    text-transform: uppercase;
+    color: blue;
+    margin: 0px 0px 20px;
+}
+
+.equipe-membre-desc {
+    overflow: auto;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+
+.equipe-membre-photo {
+    display: inline-block;
+    float: right;
+    width: 290px;
+    height: 300px;
+}
+
+.equipe-membre-ico {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#mc {
+    margin-top: 40px;
+}
