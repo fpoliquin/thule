@@ -15,6 +15,13 @@ div {
     box-sizing: border-box;
 }
 
+.ancre {
+    display: block;
+    position: relative;
+    top: -110px;
+    visibility: hidden;
+}
+
 #contenu {
     max-width: 1250px;
     margin: auto;
@@ -22,35 +29,45 @@ div {
 }
 
 #entete {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     height: 100px;
     line-height: 100px;
+    text-align: center;
+    background-color: white;
+    z-index: 200;
+}
+
+#entete-logo {
     display: inline-block;
-}
-
-#logo {
-    margin-top: 10px;
     height: 80px;
-    float: left;
+    vertical-align: middle;
 }
 
-#menu {
+#entete-menu {
     display: inline-block;
     margin: 0;
 }
 
-#menu li {
+#entete-menu li {
     display: inline-block;
     text-transform: uppercase;
 }
 
-#langue {
+#entete-menu .selectionne {
+    box-shadow:inset 0px -10px 0px 0px rgb(60, 224, 199);
+}
+
+#entete-langue {
     display: inline-block;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     color: black;
-    background-color: grey;
+    background-color: rgb(238, 238, 238);
 }
 
 .section {
@@ -58,6 +75,7 @@ div {
 }
 
 #intro {
+    margin-top: 100px;
     background-image: url("../images/nonretina/entete.jpg");
     height: 450px;
     padding-top: 100px;
@@ -231,13 +249,21 @@ div {
     color: rgb(23, 35, 47);
 }
 
+#pied-langue {
+    display: none;
+}
+
 @media (max-width: 640px) {
     .section {
         padding: 30px 15px;
     }
 
-    #menu li {
+    #entete-menu li {
         display: block;
+    }
+    
+    #entete-langue {
+        display: none;
     }
     
     #entreprise-contenu{
@@ -293,5 +319,15 @@ div {
         display: inline-block;
         float: inherit;
         width: 100%;
+    }
+    
+    #pied-langue {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: black;
+        background-color: rgb(238, 238, 238);
     }
 }

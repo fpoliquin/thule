@@ -7,16 +7,16 @@
 <body>
     <div id="contenu">
         <div id="entete">
-            <img id="logo" src="ressources/images/logo/logo.svg" />
+            <img id="entete-logo" src="ressources/images/logo/logo.svg" />
             
-            <ul id="menu">
-                <li><a href="#entreprise">L'entreprise</a></li>
-                <li><a href="#services">Nos services</a></li>
-                <li><a href="#equipe">Notre équipe</a></li>
-                <li><a href="#clients">Nos clients</a></li>
+            <ul id="entete-menu">
+                <li id="entete-menu-entreprise"><a href="#Entreprise">L'entreprise</a></li>
+                <li id="entete-menu-services"><a href="#Services">Nos services</a></li>
+                <li id="entete-menu-equipe"><a href="#Equipe">Notre équipe</a></li>
+                <li id="entete-menu-clients"><a href="#Clients">Nos clients</a></li>
             </ul>
             
-            <a id="langue" href="welcome.html">EN</a>
+            <a id="entete-langue" href="welcome.html">EN</a>
         </div>
         
         <div id="intro" class="section">
@@ -27,6 +27,7 @@
         </div>
         
         <div id="entreprise" class="section">
+            <a id="Entreprise" class="ancre"></a>
             <h1>L'entreprise</h1>
             <div id="entreprise-contenu">
                 <img src="ressources/images/nonretina/apropos.jpg" />
@@ -45,6 +46,7 @@
         </div>
         
         <div id="services" class="section">
+            <a id="Services" class="ancre"></a>
             <h1>Nos services</h1>
             <div id="services-contenu">
                 <div id="services-bloc1">
@@ -64,6 +66,7 @@
         </div>
         
         <div id="equipe" class="section">
+            <a id="Equipe" class="ancre"></a>
             <h1>Notre équipe</h1>
             
             <div id="mp" class="equipe-membre">
@@ -100,6 +103,7 @@
         </div>
         
         <div id="clients" class="section">
+            <a id="Clients" class="ancre"></a>
             <h1>Qui sont nos clients ?</h1>
             <div class="contenu">
                 Nos clients sont d'abord et avant tout soucieux de bien faire les choses.
@@ -109,8 +113,12 @@
         </div>
         
         <div id="pied">
+            <a id="pied-langue" href="welcome.html">EN</a>
             © 2015 - Thulé Évaluation, Tous droits réservés
         </div>
+        
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="ressources/scripts/general.js" type="text/javascript"></script>
     </div>
 </body>
 </html>
