@@ -1,5 +1,9 @@
-h1, h2 {
+h1, h2, h3 {
     margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 div {
@@ -46,7 +50,7 @@ div {
 }
 
 .section {
-    padding-top: 30px;
+    padding: 30px 0px;
 }
 
 #intro {
@@ -66,7 +70,6 @@ div {
 
 #intro h1 {
     color: white;
-    text-transform: uppercase;
 }
 
 #intro h2 {
@@ -80,7 +83,7 @@ div {
 }
 
 #entreprise h1 {
-    color: blue;
+    color: rgb(9, 42, 77);
 }
 
 #entreprise-contenu {
@@ -99,12 +102,15 @@ div {
     position: relative;
     display: inline-block;
     left: -45px;
-    background-color: blue;
+    background-color: rgb(7, 44, 96);
+    color: white;
+    margin-top: 15px;
+    padding: 15px 70px 15px 40px;
     white-space: nowrap;
 }
 
 #services {
-    background-color: blue;
+    background-color: rgb(19, 49, 87);
     color: white;
 }
 
@@ -115,7 +121,8 @@ div {
 
 #services-bloc1 {
     display: inline-block;
-    border: 1px solid white;
+    color: rgb(94, 203, 208);
+    border: 1px solid rgb(94, 203, 208);
     padding: 25px 25px;
     width: 440px;
 }
@@ -124,6 +131,11 @@ div {
     display: inline-block;
     margin-left: 20px;
     width: 400px;
+}
+
+#services-bloc2  em {
+    color: rgb(94, 203, 208);
+    font-style: normal;
 }
 
 #services-bloc2 ul {
@@ -139,6 +151,10 @@ div {
     overflow: auto;
 }
 
+#equipe h1 {
+    color: rgb(6, 27, 70);
+}
+
 .equipe-membre {
     display: inline-block;
     background-color: white;
@@ -147,7 +163,7 @@ div {
     padding-left: 50px;
 }
 
-.equipe-membre h1 {
+.equipe-membre h2 {
     position: relative;
     left: -50px;
     display: inline-block;
@@ -157,7 +173,7 @@ div {
     padding: 10px 10px 10px 50px;
 }
 
-.equipe-membre h2 {
+.equipe-membre h3 {
     text-transform: uppercase;
     color: rgb(91, 188, 171);
     margin: 0px 0px 20px;
@@ -198,8 +214,4 @@ div {
 #clients .contenu {
     display: inline-block;
     width: 550px;
-}
-
-#clients h1 {
-    text-transform: uppercase;
 }
