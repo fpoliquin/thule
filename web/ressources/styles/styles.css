@@ -202,7 +202,7 @@ div {
 
 .equipe-membre h3 {
     text-transform: uppercase;
-    color: rgb(91, 188, 171);
+    color: #33cccc;
     margin: 0px 0px 20px;
 }
 
@@ -212,6 +212,11 @@ div {
     margin-bottom: 35px;
 }
 
+.equipe-membre-suite {
+    color: #33cccc;
+    cursor: pointer;
+}
+
 .equipe-membre-photo {
     display: inline-block;
     float: right;
@@ -219,13 +224,24 @@ div {
     height: auto;
 }
 
-.equipe-membre-ico {
+.tel, .courriel, .linkedin {
     display: inline-block;
     width: 35px;
     height: 35px;
     text-align: center;
     line-height: 35px;
-    border: 1px solid red;
+}
+
+.tel {
+    background-image: url("../images/nonretina/telephone.png");
+}
+
+.courriel {
+    background-image: url("../images/nonretina/courriel.png");
+}
+
+.linkedin {
+    background-image: url(../images/nonretina/linkedin.png);
 }
 
 #mc {
