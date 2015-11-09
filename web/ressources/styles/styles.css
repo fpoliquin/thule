@@ -1,9 +1,14 @@
+body {
+    margin: 0;
+}
+
 h1, h2, h3 {
     margin: 0;
 }
 
 h1 {
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 a {
@@ -15,6 +20,13 @@ div {
     box-sizing: border-box;
 }
 
+.separateur {
+    display: inline-block;
+    width: 40px;
+    height: 6px;
+    background: url(../images/nonretina/filet.png);
+}
+
 .ancre {
     display: block;
     position: relative;
@@ -23,7 +35,6 @@ div {
 }
 
 #contenu {
-    max-width: 1250px;
     margin: auto;
     text-align: center;
 }
@@ -38,6 +49,7 @@ div {
     text-align: center;
     background-color: white;
     z-index: 200;
+    border-bottom: 1px solid black;
 }
 
 #entete-logo {
@@ -76,6 +88,8 @@ div {
 
 #intro {
     margin-top: 100px;
+    background-size: cover;
+    background-position: center;
     background-image: url("../images/nonretina/entete.jpg");
     height: 450px;
     padding-top: 100px;
