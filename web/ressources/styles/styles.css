@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Colaborate-Bold;
+    src: url(../typographie/ColabBol.otf);
+}
+
+@font-face {
+    font-family: Colaborate-Light;
+    src: url(../typographie/ColabLig.otf);
+}
+
+@font-face {
+    font-family: Colaborate-Medium;
+    src: url(../typographie/ColabMed.otf);
+}
+
+@font-face {
+    font-family: Colaborate-Regular;
+    src: url(../typographie/ColabReg.otf);
+}
+
+@font-face {
+    font-family: Colaborate-Thin;
+    src: url(../typographie/ColabThi.otf);
+}
+
 body {
     margin: 0;
 }
@@ -65,11 +90,21 @@ div {
 
 #entete-menu li {
     display: inline-block;
+}
+
+#entete-menu a {
     text-transform: uppercase;
+    color: #666666;
+    font-family: Colaborate-Bold;
+    font-size: 17px;
 }
 
 #entete-menu .selectionne {
     box-shadow:inset 0px -10px 0px 0px rgb(60, 224, 199);
+}
+
+#entete-menu .selectionne a {
+    color: #333333;
 }
 
 #entete-langue {
