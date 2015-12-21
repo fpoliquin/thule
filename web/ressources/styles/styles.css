@@ -49,7 +49,7 @@ div {
     display: inline-block;
     width: 40px;
     height: 6px;
-    background: url(../images/nonretina/filet.png);
+    background-color: #5DDCC6;
 }
 
 .ancre {
@@ -152,26 +152,45 @@ div {
     text-align: center;
 }
 
+#intro h1 {
+	margin-bottom: -6px;
+	padding-top: 8px;
+	text-transform: uppercase;
+	font-size: 64px;
+	font-family: Colaborate-Regular;
+	font-weight: normal;
+	color: white;
+}
+
+#intro h2 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: normal;
+	color: white;
+	margin-bottom: 16px;
+	font-family: Colaborate-Regular;
+}
+
+#intro h3 {
+	padding-top: 15px;
+	font-size: 24px;
+	color: white;
+	font-family: Colaborate-Thin;
+	font-weight: normal;
+	color: #fefeff;
+}
+
 #intro button {
     border: 1px solid white;
     background-color: transparent;
     cursor: pointer;
     color: white;
     text-transform: uppercase;
-}
-
-#intro h1 {
-    color: white;
-}
-
-#intro h2 {
-    color: white;
-    text-transform: uppercase;
-}
-
-#intro h3 {
-    color: white;
-    text-align: center;
+    margin-top: 55px;
+	padding: 14px 14px 11px 18px;    
+	font-family: Colaborate-Regular;
+	font-size: 16px;
+	font-weight: normal;
 }
 
 #entreprise h1 {
