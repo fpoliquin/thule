@@ -65,59 +65,77 @@ div {
 }
 
 #entete {
-	width: 95%;
-	max-width: 1250px;
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     height: 100px;
-    line-height: 100px;
     text-align: center;
     background-color: white;
     z-index: 200;
     border-bottom: 1px solid black;
+    vertical-align: middle;
 }
 
 #entete-logo {
-    float: left;
+    display: inline;
     width: 204px;
-    margin-top: 15px;
-    margin-left: 13.84%;
+	margin-top: 15px;
+	float: left;
+    margin-left: 13.95%;
+    margin-right: 2.5%;
 }
 
 #entete-menu {
-    display: inline-block;
-    margin: 0;
+    left: 100px;
+    padding: 0;
+    margin-top: 0;
+    list-style-type: none;
+    text-align: left;
+    overflow: auto;
 }
 
 #entete-menu li {
     display: inline-block;
+    margin: 45px 0;
+    padding-left: 4.5%;
+}
+
+#entete-menu div {
+	height: 54px;
+	margin: auto;
 }
 
 #entete-menu a {
     text-transform: uppercase;
     color: #666666;
-    font-family: Colaborate-Bold;
+    font-family: Colaborate-Regular;
     font-size: 17px;
+    text-decoration: none;
 }
 
-#entete-menu .selectionne {
-    box-shadow:inset 0px -10px 0px 0px rgb(60, 224, 199);
+#entete-menu .selectionne div {
+    border-bottom: solid 6px #5DDCC6;
 }
 
 #entete-menu .selectionne a {
-    color: #333333;
+    color: #313131;
+    font-weight: bold;
 }
 
 #entete-langue {
-    display: inline-block;
+    float: right;
+    margin-right: 3%;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
+    margin-top: -130px;
     color: black;
     background-color: rgb(238, 238, 238);
+    font-family: Colaborate-Regular;
+    font-size: 15px;
+    color: #3f3f3f;
 }
 
 .section {
@@ -322,6 +340,17 @@ div {
 
 #pied-copyrights {
     padding: 10px 10px;
+}
+
+@media (max-width: 1050px) {
+	#entete-logo {
+	    margin-left: 5%;
+	    margin-right: 1.5%;
+	}
+
+	#entete-menu li {
+	    padding-left: 2%;
+	}	
 }
 
 @media (max-width: 850px) {
