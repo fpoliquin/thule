@@ -25,6 +25,7 @@
 
 body {
     margin: 0;
+    font-family: Colaborate-Regular;
 }
 
 h1, h2, h3 {
@@ -50,6 +51,13 @@ div {
     width: 40px;
     height: 6px;
     background-color: #5DDCC6;
+}
+
+.hr-separateur {
+	height: 6px;
+	width: 30px;
+	border: 0px;
+    background-color: #5DDCC6;	
 }
 
 .ancre {
@@ -194,6 +202,11 @@ div {
 }
 
 #entreprise h1 {
+	margin-top: 24px;
+	margin-bottom: 13px;
+	font-family: Colaborate-Medium;
+	font-size: 26px;
+	font-weight: normal;
     color: rgb(9, 42, 77);
 }
 
