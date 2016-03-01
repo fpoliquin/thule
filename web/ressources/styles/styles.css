@@ -194,7 +194,8 @@ div {
 }
 
 #entreprise h1 {
-    color: rgb(9, 42, 77);
+    color: #062d5d;
+    font: 500 26px Colaborate-Regular;
 }
 
 #entreprise-contenu {
