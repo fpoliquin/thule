@@ -202,12 +202,17 @@ div {
 }
 
 #entreprise h1 {
+<<<<<<< HEAD
 	margin-top: 24px;
 	margin-bottom: 13px;
 	font-family: Colaborate-Medium;
 	font-size: 26px;
 	font-weight: normal;
     color: rgb(9, 42, 77);
+=======
+    color: #062d5d;
+    font: 500 26px Colaborate-Regular;
+>>>>>>> origin/master
 }
 
 #entreprise-contenu {
